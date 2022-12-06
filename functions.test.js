@@ -41,4 +41,4 @@ test('', () => {
 test('', () => {
   let result = sortByExpirationDate(productList);
   expect(result[result.length - 1].productName).toBe('Aprikosen');
-});
+}); 
